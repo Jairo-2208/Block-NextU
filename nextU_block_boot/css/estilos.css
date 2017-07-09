@@ -1,0 +1,21 @@
+body{
+    background-image: url("../imagenes/musica_2.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+.slider{
+  font-size: 30px;
+  background: rgba(0, 77, 209, 0.47);
+}
+@media (max-width: 376px){
+  .red_social img{
+    width: 30px;
+    height: 30px;
+  }
+}
+@media (max-width: 990px){
+  .slider{
+    font-size: 15px;
+  }
+}
